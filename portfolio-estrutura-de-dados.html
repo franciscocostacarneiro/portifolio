@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Detalhes do Portfólio</title>
+  <title>Portfolio Details</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -42,13 +42,13 @@
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-  <!-- ======= Header do projeto======= -->
+  <!-- ======= Project header ======= -->
   <header id="header">
     <div class="d-flex flex-column">
 
       <div class="profile">
         <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index-pt.html">Francisco Carneiro</a></h1>
+        <h1 class="text-light"><a href="index.html">Francisco Carneiro</a></h1>
         <div class="social-links mt-3 text-center">
           <!--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>-->
           <!--<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>-->
@@ -68,12 +68,12 @@
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Sobre</span></a></li>
-          <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resumo</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-              <span>Portfólio</span></a></li>
-          <li><a href="index.html#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Serviços</span></a></li>
-          <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contato</span></a></li>
+              <span>Portfolio</span></a></li>
+          <li><a href="index.html#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
           <li><a href="assets/file/CV_PT.pdf" target="_blank" class="nav-link"><i class="bi bi-cloud-arrow-down"
                 download="CV_P.pdf"></i> <span>Download CV</span></a></li>
         </ul>
@@ -88,10 +88,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Detalhes do Portfólio</h2>
+          <h2>Portfolio Details</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Detalhes do Portfólio</li>
+            <li>Portfolio Details</li>
           </ol>
         </div>
 
@@ -127,11 +127,11 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Informações do projeto</h3>
+              <h3>Project information</h3>
               <ul>
-                <li><strong>Categoria</strong>: Criação de Infraestrutura de dados para Ecommerce</li>
-                <li><strong>Objetivo</strong>: Desenvolvi uma solução bem legal implementando uma estrutura data-driving em um ecommerce. O projeto consistiu na criação de uma infraestrutura de dados de ponta a ponta, para a Shopbr, um e-commerce com faturamento de R$ 1 milhão, utilizando a metodologia ELT (Extract, Load, Transform) para garantir escalabilidade e eficiência.</li>
-                <li><strong>Python Libraries</strong>: Utilizei diversas tecnologias e frameworks, que encontram-se apresentadas nas figuras ao lado.</li>
+                <li><strong>Category</strong>: Creation of Data Infrastructure for E-commerce</li>
+                <li><strong>Objective</strong>: I developed a really cool solution by implementing a data-driven structure in an e-commerce business. The project consisted of building an end-to-end data infrastructure for Shopbr, an e-commerce with R$ 1 million in revenue, using the ELT methodology (Extract, Load, Transform) to ensure scalability and efficiency.</li>
+                <li><strong>Python Libraries</strong>: I used several technologies and frameworks, shown in the figures on the side.</li>
                 <li><strong>Project URL</strong>: <a
                     href="" target="_blank">Code</a></li>
                 <!-- <li><strong>Acesse em:</strong>: <a href="https://hr-dash-stream.herokuapp.com/"
@@ -140,12 +140,12 @@
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>Criação de Infraestrutura de Dados para Ecommerce</h2>
+              <h2>Creation of Data Infrastructure for E-commerce</h2>
               <p>
-                Etapa 1: O ponto de partida foi o uso de SQL no banco de dados PostgreSQL (via Supabase), simulando AWS utilizando o serviço S3, com os mesmos protocolos do serviço na Amazon. Essa abordagem inicial teve a finalidade de entender um pouco sobre os dados com uma análise exploratória profunda. Nesta fase, foram desenvolvidas 12 queries fundamentais para responder a perguntas críticas de negócio das diretorias de Clientes, Pricing e Vendas.<br><br>
-                Etapa 2: Para simular a realidade do mercado, utilizei Python para automatizar a extração de dados que, em sistemas reais, estão isolados. A extração com dados em Parquet, superando a limitação de simples planilhas manuais.<br><br>
-                Etapa 3: A etapa consistiu em criação de DW e Datamarts apropriados a cada área de negócio. A modelagem foi feita através do dbt (Data Build Tool), onde estruturei os dados em uma arquitetura Medalhão utilizando a IDE Google Antigravity conectando o DBT diretamente ao meu banco de dados Postgres Supabase.<br> •	Camadas Silver: Onde os dados foram ingeridos da forma que estavam;<br> •	Camada Bronze: Algumas agregações e limpezas realizadas. Um dos tratamentos realizados foi a criação de uma coluna com o faturamento linha a linha, que não existia nos dados; <br> e •	Camada Ouro: Foi desenhada com base nas queries de negócio da Etapa 1. Nesta camada, os dados foram modelados e refinados para serem entregues prontos às áreas de decisão, servindo como a "fonte única da verdade" da empresa.<br><br>
-                Etapa 4: Aqui é a parte mais legal! A etapa final e mais inovadora foi a implementação de um Agente de IA (IA Agêntica). Essa solução foi integrada para que os diretores e gestores pudessem consultar todos os KPIs e análises da camada ouro diretamente pelo celular, utilizando linguagem natural para obter insights em tempo real com cada área tendo acesso aos dados tratados na camada ouro..</p>
+                Step 1: The starting point was using SQL on a PostgreSQL database (via Supabase), simulating AWS by using the S3 service with the same protocols as the Amazon service. This initial approach aimed at gaining some insight into the data through deep exploratory analysis. In this phase, 12 fundamental queries were developed to answer critical business questions from the Customers, Pricing and Sales departments.<br><br>
+                Step 2: To simulate market reality, I used Python to automate the extraction of data that, in real systems, is isolated. The extraction used Parquet data, overcoming the limitation of simple manual spreadsheets.<br><br>
+                Step 3: This step consisted of creating a DW and Datamarts appropriate to each business area. The modeling was done with dbt (Data Build Tool), where I structured the data into a Medallion architecture using the Google Antigravity IDE, connecting dbt directly to my Postgres Supabase database.<br> •	Silver Layer: Where the data was ingested as-is;<br> •	Bronze Layer: Some aggregations and cleanups were performed. One of the transformations was the creation of a column with line-by-line revenue, which did not exist in the data; <br> and •	Gold Layer: Designed based on the business queries from Step 1. In this layer, data was modeled and refined to be delivered ready for decision-making areas, serving as the company's "single source of truth".<br><br>
+                Step 4: Here is the coolest part! The final and most innovative step was the implementation of an AI Agent (Agentic AI). This solution was integrated so directors and managers could query all KPIs and analyses from the gold layer directly from their phones, using natural language to obtain real-time insights, with each area having access to the data processed in the gold layer.</p>
             </div>
           </div>
 
